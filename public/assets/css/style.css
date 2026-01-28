@@ -1,0 +1,372 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-sidebar {
+  background-color: #373737;
+}
+
+.logo-ikn {
+  width: 125px;
+  height: 50px;
+}
+
+.logoTopbar {
+  max-width: 165px;
+  max-height: 140px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Container link */
+.folder-card {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Bentuk Folder */
+.folder-shape {
+  width: 200px;
+  height: 140px;
+  background-color: #fbbf24;
+  /* Warna kuning */
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Menambahkan transisi */
+}
+
+/* Efek Hover Zoom-In */
+.folder-shape:hover {
+  transform: scale(1.05); /* Zoom in dengan sedikit perbesaran */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Menambah bayangan pada hover */
+}
+
+/* Tab folder (bagian atas folder) */
+.folder-tab {
+  width: 100%;
+  height: 30px;
+  background-color: #ffffff;
+  /* Warna kuning lebih gelap */
+  border-radius: 8px 8px 0 0;
+  position: absolute;
+  top: -10px;
+  left: 40px;
+}
+
+/* Badan folder */
+.folder-body {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Konten di dalam folder */
+.folder-content {
+  text-align: center;
+}
+
+/* Judul */
+.folder-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #374151;
+  /* Warna teks */
+  margin-bottom: 8px;
+}
+
+/* Ikon Folder */
+.folder-content i {
+  font-size: 48px;
+  color: #1e3a8a;
+  /* Warna biru */
+}
+
+.custom-badge {
+  border-top-left-radius: 10px !important; /* Adjust this value for the desired curve */
+  border-bottom-right-radius: 10px !important; /* Adjust this value for the desired curve */
+  border-top-right-radius: 0 !important; /* Make the other corners square */
+  border-bottom-left-radius: 0 !important; /* Make the other corners square */
+}
+
+th {
+  vertical-align: middle !important;
+}
+
+.head-badge-top-third {
+  background-color: #ff7979; /* Light red background */
+  padding: 10px 15px; /* Padding around the text */
+  border-bottom-left-radius: 28px; /* Rounded corners */ /* Darker red text color */
+  display: inline-block; /* Keep it as a block for a clean appearance */
+  margin-right: 10px;
+}
+
+.head-badge-top-two {
+  background-color: #7462ff; /* Light red background */
+  padding: 10px 15px; /* Padding around the text */
+  border-bottom-right-radius: 28px; /* Rounded corners */ /* Darker red text color */
+  display: inline-block; /* Keep it as a block for a clean appearance */
+}
+
+.head-badge-top {
+  background-color: #263ff8; /* Light red background */
+  padding: 10px 15px; /* Padding around the text */
+  border-bottom-right-radius: 28px; /* Rounded corners */ /* Darker red text color */
+  display: inline-block; /* Keep it as a block for a clean appearance */
+}
+
+.head-badge-card {
+  background-color: #f067a9; /* Light red background */
+  padding: 10px 15px; /* Padding around the text */
+  border-bottom-right-radius: 28px; /* Rounded corners */ /* Darker red text color */
+  display: inline-block; /* Keep it as a block for a clean appearance */
+}
+
+.bg-overtime {
+  background-color: rgba(255, 99, 132, 1);
+}
+
+.text-middle {
+  vertical-align: middle !important;
+}
+
+.card {
+  box-shadow: rgba(50, 50, 93, 0.1) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 15px !important;
+}
+
+/* ===== GLOBAL ===== */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f4f6fb;
+}
+
+/* ===== CARD ===== */
+.card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card-body {
+  padding: 24px;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #6c5ce7;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #5a4cd9;
+}
+
+.btn-success {
+  background: #00b894;
+  border: none;
+}
+
+.btn-warning {
+  background: #fdcb6e;
+  border: none;
+  color: #333;
+}
+
+.btn-danger {
+  background: #d63031;
+  border: none;
+}
+
+/* ===== FORM ===== */
+.form-control {
+  border-radius: 10px;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 2px rgba(108, 92, 231, 0.25);
+  border-color: #6c5ce7;
+}
+
+/* ===== BADGE ===== */
+.badge {
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-weight: 500;
+}
+
+/* ===== TABLE ===== */
+.table {
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.table thead {
+  background: #6c5ce7;
+  color: #fff;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+/* ===== MODAL ===== */
+.modal-content {
+  border-radius: 18px;
+  border: none;
+}
+
+.modal-header {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+/* ===== STATUS ===== */
+.bg-overtime {
+  background: #d63031 !important;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #565083, #0b081f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ===== DASHBOARD CARD COLOR SYSTEM ===== */
+
+.card-dashboard {
+  border: none;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #ffffff, #f6f7ff);
+  box-shadow: 0 12px 30px rgba(50, 49, 58, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+/* accent strip */
+.card-dashboard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #565083, #0b081f);
+}
+
+/* text */
+.card-dashboard h6 {
+  color: #2d3436;
+}
+
+.card-dashboard .text-muted {
+  color: #6c757d !important;
+}
+
+/* hover effect */
+.card-dashboard:hover {
+  transform: translateY(-4px);
+  transition: all 0.25s ease;
+}
+
+/* Card utama */
+.drive-card {
+  background-color: #f1f3f4;
+  border-radius: 16px;
+  padding: 8px;
+  height: 230px;
+}
+
+/* Header */
+.drive-card-header {
+  background-color: #e6e6e6;
+  border-radius: 12px;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Body */
+.drive-card-body {
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-top: 8px;
+  height: 160px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.drive-card-body:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Icon tengah */
+.drive-folder-icon {
+  font-size: 48px;
+  color: #5f6368;
+}
+
+.dashboard-card {
+  border-radius: 14px;
+  transition: all 0.25s ease;
+}
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.progress-sm {
+  height: 8px;
+  border-radius: 8px;
+}
+
+.paket-card {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.paket-card .card-header {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .mobile-stack {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+/* table hover */
+#example tbody tr:hover {
+  background-color: #f4f6f9;
+}

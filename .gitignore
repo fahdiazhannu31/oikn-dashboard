@@ -1,0 +1,5 @@
+/vendor
+/writable/*
+!/writable/.gitkeep
+.env
+node_modules
